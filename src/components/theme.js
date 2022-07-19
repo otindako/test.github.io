@@ -20,7 +20,7 @@ function getTheme(theme) {
         root.style.setProperty('--text-color', 'rgb(44, 44, 44)');
         root.style.setProperty('--primary-accent-color', '#007aff'); 
         root.style.setProperty('--secondary-accent-color', '#35c759');
-        head.content = "#f8f8f8d5"
+        head.content = "#ffffff"
         localStorage.setItem("darkmode", "0")
 
     
@@ -31,7 +31,7 @@ function getTheme(theme) {
         root.style.setProperty('--text-color', 'rgb(199, 199, 199)');
         root.style.setProperty('--primary-accent-color', '#0b84fe');
         root.style.setProperty('--secondary-accent-color', '#2ed158'); 
-        head.content = "#252525ee"
+        head.content = "#1c1c1e"
         localStorage.setItem("darkmode", "1")
 
     
