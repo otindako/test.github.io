@@ -10,6 +10,8 @@ html,
 body{
   height: 100%;
   box-sizing: border-box;
+  margin-top: 6em;
+  margin-bottom: 14em;
 }
 
 body {
@@ -48,5 +50,4 @@ li{
 
 .width-container{
   width: 90%;
-  margin: 0 auto;
 }
