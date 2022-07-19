@@ -17,6 +17,7 @@ function getTheme(theme) {
 
         root.style.setProperty('--primary-color', '#ffffff');
         root.style.setProperty('--secondary-color', '#f2f2f6');
+        root.style.setProperty('--blurry-surface','rgba(246, 245, 245, 1')
         root.style.setProperty('--text-color', 'rgb(44, 44, 44)');
         root.style.setProperty('--primary-accent-color', '#007aff'); 
         root.style.setProperty('--secondary-accent-color', '#35c759');
@@ -28,6 +29,7 @@ function getTheme(theme) {
 
         root.style.setProperty('--primary-color', '#1c1c1e');
         root.style.setProperty('--secondary-color', '#000000');
+        root.style.setProperty('--blurry-surface','rgba(28, 28, 30, 1)')
         root.style.setProperty('--text-color', 'rgb(199, 199, 199)');
         root.style.setProperty('--primary-accent-color', '#0b84fe');
         root.style.setProperty('--secondary-accent-color', '#2ed158'); 
