@@ -1,11 +1,13 @@
 import './App.css';
-import { Navbar } from './components/Navbar';
+import { SearchBar } from './components/Searchbar';
 import { Dashboard } from './components/Dashboard';
+import { BottomBar } from './components/footer';
 
 function App() {
   return <>
-    <Navbar />
+    <SearchBar />
     <Dashboard />
+    <BottomBar />
   </>
 }
 
