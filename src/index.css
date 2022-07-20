@@ -1,17 +1,16 @@
 :root{
   --primary-color: #ffffff;
-  --secondary-color: #f2f2f6;
+  --secondary-color: #f0f0f0;
   --tertiary-color: rgba(227,227,232,255);
   --text-color: rgb(44, 44, 44);
   --primary-accent-color: #007aff;
   --secondary-accent-color: #35c759;
 }
-
 html,
 body{
-  height: 100%;
-  box-sizing: border-box;
-  margin-top: 5em;
+  
+  margin-top: 6em;
+  margin-bottom: 2em;
 }
 
 body {

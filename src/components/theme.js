@@ -15,12 +15,12 @@ function getTheme(theme) {
     if (theme === 0) {
 
         root.style.setProperty('--primary-color', '#ffffff');
-        root.style.setProperty('--secondary-color', '#f2f2f6');
+        root.style.setProperty('--secondary-color', '#f0f0f0');
         root.style.setProperty('--tertiary-color','rgba(227,227,232,255)')
         root.style.setProperty('--text-color', 'rgb(44, 44, 44)');
         root.style.setProperty('--primary-accent-color', '#007aff'); 
         root.style.setProperty('--secondary-accent-color', '#35c759');
-        head.content = "#f2f2f6"
+        head.content = "#f0f0f0"
         localStorage.setItem("darkmode", "0")
 
     
