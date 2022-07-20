@@ -1,17 +1,11 @@
+import "./index.css"
 import './App.css';
-import { SearchBar } from './components/Searchbar';
-// import { SideBar } from './components/sidebar';
-import { Dashboard } from './components/Dashboard';
-import { BottomBar } from './components/footer';
+import Main from './pages/main.js'
 
 function App() {
-  return <>
-    <SearchBar />
-    <Dashboard />
-    <BottomBar />
-    {/* <SideBar /> */}
-  </>
+  return (
+    <Main></Main>
+  );
 }
 
-
-export default App
+export default App;
