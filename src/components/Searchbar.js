@@ -1,5 +1,4 @@
 import './Searchbar.css'
-import '../index.css'
 import { toggleTheme } from './theme'
 
 export default function SearchBar(){

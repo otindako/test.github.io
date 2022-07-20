@@ -1,4 +1,3 @@
-import "./index.css"
 import Main from './pages/main.js'
 
 function App() {
