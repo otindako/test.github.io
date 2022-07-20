@@ -1,3 +1,15 @@
+.home-page-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 65%;
+}
+
 .emoji{
     font-size: 1.7rem;
+}
+.regular-p{
+    border-radius: 18px;
+    background-color: var(--primary-color);
+    padding: .3em;
 }
