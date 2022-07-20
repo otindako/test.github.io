@@ -20,10 +20,6 @@
     color: var(--text-color);
     text-align: center;
 
-    /* font-size: 1.3rem;
-    padding: .5em 0;
-    box-shadow: -10px 3px 30px var(--text-color); */
-
     border-bottom-left-radius: 28px;
     border-bottom-right-radius: 28px;
 }
