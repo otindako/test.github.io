@@ -1,6 +1,6 @@
 {
-  "short_name": "My PWA",
-  "name": "My reactjs pwa app",
+  "short_name": "My Portfolio",
+  "name": "My personal web-based Portfolio",
   "icons": [
     {
       "src": "favicon.ico",

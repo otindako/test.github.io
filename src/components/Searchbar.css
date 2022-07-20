@@ -11,7 +11,9 @@
     width: 100%;
     
 }
-
+.material-symbols-outlined{
+    cursor: pointer;
+}
 .search-bar{
     width: 50%;
     outline: none;
