@@ -1,0 +1,35 @@
+.header{
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+
+.search-bar{
+    width: 50%;
+    outline: none;
+    border: none;
+    background-color: var(--tertiary-color);
+    color: var(--text-color);
+    text-align: center;
+
+    border-bottom-left-radius: 28px;
+    border-bottom-right-radius: 28px;
+}
+.top-buttons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+
+    background-color: var(--tertiary-color);
+    color: var(--text-color);
+    border-radius: 14px;
+    padding: .4em 0;
+}

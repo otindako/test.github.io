@@ -1,6 +1,5 @@
 let darkmode = localStorage.getItem("darkmode")
 const head = document.getElementById("head")
-console.log()
 
 // When page loads
 function loadTheme(){
@@ -16,11 +15,12 @@ function getTheme(theme) {
     if (theme === 0) {
 
         root.style.setProperty('--primary-color', '#ffffff');
-        root.style.setProperty('--secondary-color', '#f2f2f6');
+        root.style.setProperty('--secondary-color', '#f0f0f0');
+        root.style.setProperty('--tertiary-color','rgba(227,227,232,255)')
         root.style.setProperty('--text-color', 'rgb(44, 44, 44)');
         root.style.setProperty('--primary-accent-color', '#007aff'); 
         root.style.setProperty('--secondary-accent-color', '#35c759');
-        head.content = "#f8f8f8d5"
+        head.content = "#f0f0f0"
         localStorage.setItem("darkmode", "0")
 
     
@@ -28,10 +28,11 @@ function getTheme(theme) {
 
         root.style.setProperty('--primary-color', '#1c1c1e');
         root.style.setProperty('--secondary-color', '#000000');
+        root.style.setProperty('--tertiary-color','rgba(28,28,30,255)')
         root.style.setProperty('--text-color', 'rgb(199, 199, 199)');
         root.style.setProperty('--primary-accent-color', '#0b84fe');
         root.style.setProperty('--secondary-accent-color', '#2ed158'); 
-        head.content = "#252525ee"
+        head.content = "#000000"
         localStorage.setItem("darkmode", "1")
 
     

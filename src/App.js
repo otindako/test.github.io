@@ -1,13 +1,9 @@
-import './App.css';
-import { Navbar } from './components/Navbar';
-import { Dashboard } from './components/Dashboard';
+import Main from './pages/main.js'
 
 function App() {
-  return <>
-    <Navbar />
-    <Dashboard />
-  </>
+  return (
+    <Main></Main>
+  );
 }
 
-
-export default App
+export default App;
