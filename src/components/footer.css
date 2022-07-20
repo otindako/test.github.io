@@ -1,5 +1,5 @@
 .footer{
-    background-color: var(--blurry-surface);
+    background-color: var(--primary-color);
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -22,4 +22,6 @@
     align-items: center;
     padding: 1em;
     margin-top: .6em;
+
+    border-radius: 18px;
 }
