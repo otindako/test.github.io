@@ -12,9 +12,6 @@ root.render(
   </React.StrictMode>
 );
 
-if ("serviceWorker" in navigator) {
-  // register service worker
-  navigator.serviceWorker.register('https://test.react-test-dgm.pages.dev/service-worker.js');
-}
 
+serviceWorker.register();
 loadTheme()
