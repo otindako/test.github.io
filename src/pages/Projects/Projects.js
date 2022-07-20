@@ -5,7 +5,7 @@ class Projects extends Component {
   render() {
     return (
       <div className="width-container">
-        <h2 className="title">Projects</h2>
+        <h2 className="font-center title">Projects</h2>
         <section className="project-list">
         <div className='project-box'>
             <img src={require('../../img/tip.webp')} alt="" className='img' />

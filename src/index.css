@@ -11,10 +11,13 @@
   --primary-color: #ffffff;
   --secondary-color: #f0f0f0;
   --tertiary-color: rgba(227,227,232,255);
-  --text-color: rgb(44, 44, 44);
+  --text-color: rgb(85, 85, 85);
   --primary-accent-color: #007aff;
   --secondary-accent-color: #35c759;
 }
+/* *{
+  outline: 1px solid blue;
+} */
 html,
 body{
   margin-top: 6em;
@@ -37,8 +40,19 @@ ul{
   padding: 0;
   list-style: none;
 }
-.title{
+.font-center{
   text-align: center;
+}
+.small-text{
+  font-size: .7rem;
+  font-weight: 800;
+}
+.accent-text{
+  color: var(--secondary-accent-color);
+}
+.regular-p{
+  margin-top: 1em;
+  line-height: 1.7;
 }
 #root{
   max-height: 70%;

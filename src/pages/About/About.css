@@ -1,0 +1,9 @@
+.author-img{
+    width: 15%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 30px;
+    border: 2px solid var(--text-color);
+
+    box-shadow: 0px 0px 30px var(--text-color);
+}

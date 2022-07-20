@@ -1,0 +1,9 @@
+.email-container{
+    display: block;
+    text-align: center;
+    background-color: var(--tertiary-color);
+    color: var(--primary-accent-color);
+    padding: .6em 1.4em;
+    margin-top: 2em;
+    border-radius: 28px;
+}
