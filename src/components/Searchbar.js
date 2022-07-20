@@ -2,7 +2,7 @@ import './Searchbar.css'
 import '../index.css'
 import { toggleTheme } from './theme'
 
-function SearchBar(){
+export default function SearchBar(){
     return <header className='header'>
         <div className="top-buttons">
             <i className="material-icons">menu</i>
@@ -11,5 +11,3 @@ function SearchBar(){
         </div>
     </header>
 }
-
-export {SearchBar}

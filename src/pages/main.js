@@ -4,7 +4,7 @@ import Home from "./Home/Home";
 import Projects from "./Projects/Projects";
 import Contact from "./Contact/Contact";
 import About from "./About/About";
-import {SearchBar} from '/home/pablo/documents/projects/my-app/src/components/Searchbar'
+import SearchBar from '../components/Searchbar'
 
 function Main() {
     return (
