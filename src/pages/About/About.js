@@ -1,5 +1,4 @@
-import React, { Component } from "react";
-import "/home/pablo/documents/projects/my-app/src/index.css"  
+import React, { Component } from "react"; 
 
 class About extends Component {
   render() {

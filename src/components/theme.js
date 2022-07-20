@@ -1,6 +1,5 @@
 let darkmode = localStorage.getItem("darkmode")
 const head = document.getElementById("head")
-console.log()
 
 // When page loads
 function loadTheme(){
