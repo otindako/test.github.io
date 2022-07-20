@@ -2,6 +2,8 @@ let CACHE_NAME = 'my-site-cache-v1';
 const urlsToCache = [
 '/',
 '/index.html',
+'/static',
+'top/my-app',
 ];
 self.addEventListener('install', function(event) {
 // Perform install steps

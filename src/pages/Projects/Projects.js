@@ -23,7 +23,7 @@ class Projects extends Component {
             <a className='project-link' href="https://mycalculator.pages.dev/">Click here!</a>
         </div>
         <div className='project-box'>
-            <img src={require('../../img/carousel.webp')} alt="" className='img' />
+            <img src={require('../../img/ideaMaker.webp')} alt="" className='img' />
             <p className='project-title'>Idea maker</p>
             <a className='project-link' href="https://idea-maker.pages.dev/">Click here!</a>
         </div>
