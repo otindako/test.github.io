@@ -14,7 +14,7 @@ root.render(
 
 if ("serviceWorker" in navigator) {
   // register service worker
-  navigator.serviceWorker.register('service-worker.js');
+  navigator.serviceWorker.register('https://test.react-test-dgm.pages.dev/service-worker.js');
 }
 
 loadTheme()
