@@ -6,6 +6,7 @@
   --primary-accent-color: #007aff;
   --secondary-accent-color: #35c759;
 }
+
 html,
 body{
   height: 100%;
@@ -39,7 +40,9 @@ ul{
   padding: 0;
   list-style: none;
 }
-
+.title{
+  text-align: center;
+}
 #root{
   max-height: 70%;
 }
@@ -51,4 +54,7 @@ ul{
 a{
   text-decoration: none;
   color: var(--text-color);
+}
+.content{
+  margin-bottom: 5em;
 }
