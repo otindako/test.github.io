@@ -5,9 +5,6 @@ class About extends Component {
     return (
       <div className="width-container">
         <h2>Pablo!</h2>
-        <p>The easiest thing to do is post on
-        our <a href="http://forum.kirupa.com">forums</a>.
-        </p>
       </div>
     );
   }
