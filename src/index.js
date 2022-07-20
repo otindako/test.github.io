@@ -13,5 +13,5 @@ root.render(
 );
 
 
-serviceWorker.register();
+serviceWorker.register('service-worker');
 loadTheme()
